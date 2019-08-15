@@ -3,7 +3,7 @@
  */
 const config = {
   api: {
-    host: 'https://explorer.bulwarkcrypto.com',
+    host: 'https://explorer.bastoji.com',
     port: '3000',
     portWorker: '443',
     prefix: '/api',
@@ -19,16 +19,16 @@ const config = {
   rpc: {
     host: '127.0.0.1',
     port: '52541',
-    user: 'bulwarkrpc',
+    user: 'bastojirpc',
     pass: 'someverysafepassword',
     timeout: 8000, // 8 seconds
   },
   coinDetails: {
-    name: 'Bulwark',
-    shortName: 'BWK',
-    longName: 'Bulwark Cryptocurrency',
+    name: 'Bastoji',
+    shortName: 'BTJ',
+    longName: 'Bastoji Cryptocurrency',
     coinNumberFormat: '0,0.0000',
-    websiteUrl: 'https://bulwarkcrypto.com/'
+    websiteUrl: 'https://sqoin.com/'
   },
 
   ///////////////////////////////
