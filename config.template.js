@@ -3,7 +3,7 @@
  */
 const config = {
   api: {
-    host: 'https://explorer.bulwarkcrypto.com',
+    host: 'https://explorer.bastoji.com',
     port: '3000',
     portWorker: '443',
     prefix: '/api',
@@ -19,16 +19,16 @@ const config = {
   rpc: {
     host: '127.0.0.1',
     port: '52541',
-    user: 'bulwarkrpc',
+    user: 'bastojirpc',
     pass: 'someverysafepassword',
     timeout: 8000, // 8 seconds
   },
   coinDetails: {
-    name: 'Bulwark',
-    shortName: 'BWK',
-    longName: 'Bulwark Cryptocurrency',
+    name: 'Bastoji',
+    shortName: 'BTJ',
+    longName: 'Bastoji Cryptocurrency',
     coinNumberFormat: '0,0.0000',
-    websiteUrl: 'https://bulwarkcrypto.com/'
+    websiteUrl: 'https://sqoin.com/'
   },
 
   ///////////////////////////////
@@ -39,13 +39,13 @@ const config = {
   },
   coinMarketCap: {
     api: 'http://api.coinmarketcap.com/v1/ticker/',
-    ticker: 'bulwark'
+    ticker: 'bastoji'
   },
   slack: {
     url: 'https://hooks.slack.com/services/A00000000/B00000000/somekindofhashhere',
     //'channel': '#general',
     //'username': 'Block Report',
-    //'icon_emoji': ':bwk:'
+    //'icon_emoji': ':btj:'
   },
 
   ///////////////////////////////
