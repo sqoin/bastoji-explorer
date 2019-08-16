@@ -65,10 +65,7 @@ class Footer extends Component {
               <a href="https://www.youtube.com/channel/UCQdDjelQcsXp32bpsupymBw?view_as=subscriber" target="_blank" rel="nofollow noopener">
                 <Icon name="youtube" className="fab footer__social-media-icon" />
               </a>
-              <a href="https://sqoin.us/coin/mailto:admin@sqoin.us" target="_blank" rel="nofollow noopener">
-                <Icon name="google" className="fab footer__social-media-icon" />
-              </a>
-              <a href="http://linkedin.com/" target="_blank" rel="nofollow noopener">
+              <a href="https://www.linkedin.com/company/sqoin/" target="_blank" rel="nofollow noopener">
               <Icon name="linkedin" className="fab footer__social-media-icon" />
               </a>
               <a href="https://github.com/sqoin/" target="_blank" rel="nofollow noopener">
