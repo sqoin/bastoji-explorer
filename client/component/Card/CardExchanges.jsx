@@ -5,7 +5,7 @@ import Card from './Card';
 
 const CardExchanges = () => (
   <Card title="Exchanges">
-    <a href="http://trade.sqoin.us/" target="_blank" rel="nofollow noopener">Trade</a>
+    <a href="https://sqoin.exchange/" target="_blank" rel="nofollow noopener">Trade</a>
   </Card>
 );
 

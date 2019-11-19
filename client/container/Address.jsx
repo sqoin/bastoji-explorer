@@ -53,7 +53,10 @@ class Address extends Component {
 
   getAddress = () => {
     this.setState({ loading: true }, () => {
-      const address = this.props.match.params.hash;
+      let address = this.props.match.params.hash;
+	address = address.replace(/\n|\r/g,'');
+	
+      console.log('gggggggggggggggggggggg '+address);
       this.props
         .getAddress({ address })
         .then(({ balance, received, txs, utxo, isMasternode }) => {
@@ -132,6 +135,7 @@ class Address extends Component {
           address={this.state.address}
           txs={this.state.txs.slice(start, end)}
           utxo={this.state.utxo} />
+<span>ggggggggggggggggggggggggggggggggg</span>
         <Pagination
           current={this.state.page}
           className="float-right"

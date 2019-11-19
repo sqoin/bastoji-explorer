@@ -187,7 +187,7 @@ async function update() {
   try {
     // Create the cron lock, if return is called below the finally will still be triggered releasing the lock without errors
     // Notice how we moved the cron lock on top so we lock before block height is fetched otherwise collisions could occur
-    //locker.lock(type);
+   // locker.lock(type);
     hasAcquiredLocked = true;
 
     const info = await rpc.call('getinfo');
@@ -223,7 +223,7 @@ async function update() {
   } finally {
     // Try to release the lock if lock was acquired
     if (hasAcquiredLocked) {
-    //  locker.unlock(type);
+     // locker.unlock(type);
     }
 
     config.verboseCron && console.log(""); // Adds new line between each run with verbosity
